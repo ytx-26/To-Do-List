@@ -1,1 +1,1 @@
-const userInput = document.getElementById('input-box')
+const userInput = document.getElementById('Input-Box')
