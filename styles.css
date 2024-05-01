@@ -11,6 +11,12 @@
 }
 
 /* Input Box Layout And Styling*/
+
+.Input-Container{
+    display: flex; 
+    justify-content: center;
+}
+
 .User-Input{ 
     width: 250px;
     height: auto; 
