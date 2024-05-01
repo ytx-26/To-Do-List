@@ -10,3 +10,10 @@
     padding-top: 20px;
 }
 
+/* Input Box Layout And Styling*/
+.User-Input{ 
+    width: 250px;
+    height: auto; 
+    display:flex;
+    
+}
