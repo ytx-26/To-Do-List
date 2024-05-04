@@ -1,6 +1,5 @@
 //Input Box
 const userInput = document.getElementById('Input-Box');
-const userInputValue = userInput.value;
 
 
 //Button 
@@ -13,6 +12,7 @@ const input = document.getElementById('Input');
 
 //Function 
 function additionToPrintBox(){
+    const userInput = document.getElementById('Input-Box').value;
     let newDiv = document.createElement('h2');
     newDiv.textContent = 
     newDiv.appendChild(input);
