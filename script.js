@@ -6,8 +6,10 @@ const userInputValue = userInput.value;
 //Button 
 const Button = document.getElementById('Button');
 
+
 //Where the user input is going to appear
 const input = document.getElementById('Input'); 
+
 
 //Function 
 function additionToPrintBox(){
@@ -16,8 +18,6 @@ function additionToPrintBox(){
     newDiv.classList.add('User-Text');
 
 }
-
-
 
 
 // Getting user input after they click on the button
