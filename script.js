@@ -11,7 +11,7 @@ const input = document.getElementById('Input');
 
 //Function 
 function additionToPrintBox(){
-    
+    let newDiv = document.createElement('div');
 }
 
 
