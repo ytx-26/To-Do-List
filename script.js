@@ -14,7 +14,7 @@ const input = document.getElementById('Input');
 //Function 
 function additionToPrintBox(){
     let newDiv = document.createElement('h2');
-    newDiv.append(input);
+    newDiv.appendChild(input);
     newDiv.classList.add('User-Text');
 
 }
