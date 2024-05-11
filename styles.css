@@ -10,15 +10,15 @@
     padding: 20px;
 }
 
-/* Input Box Layout And Styling*/
 
+/* Input Box Layout And Styling*/
 .Input-Container{
     display: flex; 
     justify-content: center;
 }
 
-/* Input Container*/
 
+/* Input Container*/
 .Input-Container-Container{
     display:flex;
     justify-content: center;
