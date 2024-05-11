@@ -19,6 +19,10 @@
 
 /* Input Container*/
 
+.Input-Container-Container{
+    justify-content: center;
+}
+
 #Input{
     height: 250px;
     width: 250px;
