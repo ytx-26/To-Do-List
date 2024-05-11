@@ -20,6 +20,7 @@
 /* Input Container*/
 
 .Input-Container-Container{
+    display:flex;
     justify-content: center;
 }
 
