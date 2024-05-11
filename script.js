@@ -1,7 +1,3 @@
-//Input Box
-const userInput = document.getElementById('Input-Box');
-
-
 //Button 
 const Button = document.getElementById('Button');
 
