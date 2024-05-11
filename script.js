@@ -11,7 +11,7 @@ function additionToPrintBox(){
     const userInput = document.getElementById('Input-Box').value;
     let paragraphTag = document.createElement('h2');
     paragraphTag.textContent = userInput;
-    inputContainer.appendChild(input);
+    inputContainer.appendChild(paragraphTag);
     paragraphTag.classList.add('User-Text');
 
 }
