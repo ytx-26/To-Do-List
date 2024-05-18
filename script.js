@@ -16,6 +16,7 @@ function additionToPrintBox(){
     inputContainer.appendChild(paragraphTag);
 
     let deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Delete';
 }
 
 
