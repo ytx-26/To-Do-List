@@ -8,7 +8,7 @@ const inputContainer = document.getElementById('Input');
 
 //Function 
 function additionToPrintBox(){
-    let hostContainer = document.createAttribute('div');
+    let hostContainer = document.createElement('div');
     hostContainer.classList.add('Host-Container');
     inputContainer.appendChild(hostContainer);
 
