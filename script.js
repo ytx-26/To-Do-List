@@ -26,7 +26,7 @@ function additionToPrintBox(){
     deleteButton.classList = 'Delete-Button';
     hostContainer.append(deleteButton);
     deleteButton.addEventListener('click', function(){
-        inputContainer.removeChild(paragraphTag)
+        inputContainer.removeChild(hostContainer);
     });
 }
 
