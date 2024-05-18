@@ -19,7 +19,7 @@
 
 
 /* Input Container*/
-.Input-Container-Container{height: 250px; width: 250px; display:flex; justify-content: center; padding-top: 35px;}
+.Input-Container-Container{display:flex; justify-content: center; padding-top: 35px;}
 
 #Input{height: 250px; width: 250px; background-color: blanchedalmond;}
 
