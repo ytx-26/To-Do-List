@@ -24,7 +24,7 @@ function additionToPrintBox(){
     let deleteButton = document.createElement('button');
     deleteButton.textContent = 'Delete';
     deleteButton.classList = 'Delete-Button';
-    hostContainer.append(deleteButton);
+    hostContainer.appendChild(deleteButton);
     deleteButton.addEventListener('click', function(){
         inputContainer.removeChild(hostContainer);
     });
