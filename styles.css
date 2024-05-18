@@ -25,3 +25,5 @@
 
 /*Delete Button*/
 .Delete-Button{margin-right:10px;}
+
+.Host-Container{display:flex; justify-content: space-between;}
