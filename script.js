@@ -13,11 +13,16 @@ function additionToPrintBox(){
     paragraphTag.textContent = userInput;
     paragraphTag.classList.add('User-Text');
     
+    //Adding text to the box
     inputContainer.appendChild(paragraphTag);
 
+    //Creating a delete button
     let deleteButton = document.createElement('button');
     deleteButton.textContent = 'Delete';
     deleteButton.classList = 'Delete-Button';
+    deleteButton.addEventListener('click', function(){
+        
+    }
 }
 
 
