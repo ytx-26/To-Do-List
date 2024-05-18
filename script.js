@@ -10,6 +10,7 @@ const inputContainer = document.getElementById('Input');
 function additionToPrintBox(){
     let hostContainer = document.createAttribute('div');
     hostContainer.classList('Host-Container');
+    inputContainer.appendChild(hostContainer);
 
     const userInput = document.getElementById('Input-Box').value;
     let paragraphTag = document.createElement('li');
