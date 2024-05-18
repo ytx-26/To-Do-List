@@ -9,7 +9,7 @@ const inputContainer = document.getElementById('Input');
 //Function 
 function additionToPrintBox(){
     const userInput = document.getElementById('Input-Box').value;
-    let paragraphTag = document.createElement('h2');
+    let paragraphTag = document.createElement('li');
     paragraphTag.textContent = userInput;
     paragraphTag.classList.add('User-Text');
     
